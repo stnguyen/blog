@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Stefan Nguyen]]></title>
-  <link href="http://github.sontung23.com/atom.xml" rel="self"/>
-  <link href="http://github.sontung23.com/"/>
-  <updated>2012-01-13T15:30:04+07:00</updated>
-  <id>http://github.sontung23.com/</id>
+  <link href="http://sontung23.github.com/atom.xml" rel="self"/>
+  <link href="http://sontung23.github.com/"/>
+  <updated>2012-01-13T15:54:13+07:00</updated>
+  <id>http://sontung23.github.com/</id>
   <author>
     <name><![CDATA[Stefan Nguyen]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://github.sontung23.com/blog/2012/01/13/hello-world/"/>
+    <link href="http://sontung23.github.com/blog/2012/01/13/hello-world/"/>
     <updated>2012-01-13T15:25:00+07:00</updated>
-    <id>http://github.sontung23.com/blog/2012/01/13/hello-world</id>
+    <id>http://sontung23.github.com/blog/2012/01/13/hello-world</id>
     <content type="html"><![CDATA[<p>asfksa</p>
 ]]></content>
   </entry>
