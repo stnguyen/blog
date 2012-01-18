@@ -11,14 +11,12 @@ body > nav {
     @include background-clip(padding-box);
     margin: 0; padding: 0;
     .search {
-      padding: .3em .5em 0;
+      padding: .2em .5em 0;
       font-size: .85em;
       @extend .sans;
       line-height: 1.1em;
       width: 95%;
-      @include border-radius(.5em);
-      @include background-clip(padding-box);
-      @include box-shadow(lighten($nav-bg, 2) 0 1px);
+      @include border-radius(.3em);
       background-color: lighten($nav-bg, 15);
       border: 1px solid $nav-border;
       color: #888;
@@ -55,19 +53,15 @@ body > nav {
     a {
       @include link-colors($nav-color, $nav-color-hover, $visited: $nav-color);
       @extend .sans;
-      text-shadow: lighten($nav-bg, 12) 0 1px;
       float: left;
       text-decoration: none;
-      font-size: 1.1em;
-      padding: .1em 0;
+      margin: .1em 0;
       line-height: 1.5em;
     }
     li + li {
-      border-left: 1px solid $nav-border-left;
       margin-left: .8em;
       a {
         padding-left: .8em;
-        border-left: 1px solid $nav-border-right;
       }
     }
     form {
@@ -90,7 +84,7 @@ body > nav {
   }
   @media only screen and (min-width: 992px) {
     form {
-      width: $sidebar-width-wide - $pad-wide - $sidebar-pad-wide*2 + 10px;
+      width: $sidebar-width-wide - $pad-wide - $sidebar-pad-wide*2 + 60px;
     }
     ul[data-subscription$=email] + form {
       width: $sidebar-width-wide - $pad-wide - $sidebar-pad-wide*2 - 58px;
@@ -104,18 +98,7 @@ body > nav {
   }
 }
 @mixin mask-subscription-nav($feed: 'rss.png'){
-  position: relative; top: 0px;
-  text-indent: -999999em;
-  background-color: $nav-border-right;
-  border: 0;
-  padding: 0;
-  &,&:after { @include mask-image($feed); }
-  &:after {
-    content: "";
-    position: absolute; top: -1px; left: 0;
-    background-color: lighten($nav-color, 25);
-  }
-  &:hover:after { background-color: lighten($nav-color, 20); }
+  display:none;
 }
 .maskImage {
   body > nav {
@@ -130,7 +113,7 @@ body > nav {
       }
     }
   }
-  ul.subscription { position: relative; top: .2em; li, a { border: 0; padding: 0; }}
+  ul.subscription { margin-top: .15em; li, a { border: 0; padding: 0; }}
   a[rel=subscribe-rss]{ @include mask-subscription-nav('rss.png'); }
   a[rel=subscribe-email]{ @include mask-subscription-nav('email.png'); }
 }
