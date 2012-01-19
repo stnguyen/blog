@@ -4,6 +4,7 @@ title: "Benefits of using MongoDB: Reduce Complexity &amp; Adapt to Changes"
 date: 2012-01-19 13:48
 comments: true
 categories: [Web development]
+keywords: nosql,mongodb,alex-nguyen,vinova,agile,adapt-changes
 ---
 NoSQL is really making a huge wave in the Web development world. [Facebook is using NoSQL](http://www.slideshare.net/brizzzdotcom/facebook-messages-hbase), [Twitter is using NoSQL](http://www.slideshare.net/kevinweil/nosql-at-twitter-nosql-eu-2010), [Disney, foursquare, github, disqus are all using NoSQL](http://www.mongodb.org/display/DOCS/Production+Deployments).
 

@@ -4,6 +4,7 @@ title: "Cool technologies for Web development"
 date: 2012-01-19 02:25
 comments: true
 categories: [Web development]
+keywords: nodejs,cappuchino,brunch,less,radi,jquery-tour
 ---
 Just something I’ve noted down months ago, almost forgot that I intended to dive into later.
 

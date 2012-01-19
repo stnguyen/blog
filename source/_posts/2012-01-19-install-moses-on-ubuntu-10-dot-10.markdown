@@ -4,6 +4,7 @@ title: "Install Moses on Ubuntu 10.10"
 date: 2012-01-19 11:24
 comments: true
 categories: [Natural Language Processing]
+keywords: nlp,smt,moses,ubuntu,install
 ---
 Several months ago I had a chance to work on a Machine-translation project in which we use [Moses](http://www.statmt.org/moses/) for Statistical machine translation (SMT).
 

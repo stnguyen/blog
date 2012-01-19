@@ -4,6 +4,7 @@ title: "Advice for Computer Science College Students from Joel Spolsky"
 date: 2012-01-19 13:40
 comments: true
 categories: [Developer Life]
+keywords: stack-overflow,student,computer-science,advices
 ---
 > The difference between a tolerable programmer and a great programmer is not how many programming languages they know, and it’s not whether they prefer Python or Java. **It’s whether they can communicate their ideas**. By persuading other people, they get leverage. By writing clear comments and technical specs, they let other programmers understand their code, which means other programmers can use and work with their code instead of rewriting it. Absent this, their code is worthless.
 
