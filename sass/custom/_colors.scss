@@ -15,6 +15,10 @@ $sidebar-bg: #EBEBEB;
 //$footer-bg-front: image-url('noise.png');
 //$footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11));
 
+$link-color: #333;
+$link-color-hover: #1863A1;
+$link-color-visited: #333;
+$link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 
 /* To use the light Solarized highlighting theme uncomment the following line */
 //$solarized: light;
