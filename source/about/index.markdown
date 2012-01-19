@@ -4,7 +4,7 @@ title: "About me"
 date: 2012-01-13 15:26
 ---
 
-![Nguyen Son Tung a.k.a Stefan Nguyen](images/stefan-nguyen.png)
+![Nguyen Son Tung a.k.a Stefan Nguyen](/images/stefan-nguyen.png)
 
 Hello world! :)
 
