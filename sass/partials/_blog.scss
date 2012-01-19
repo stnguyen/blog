@@ -1,7 +1,8 @@
 article {
   font-size:1em;
   padding-top: 1em;
-  a { @extend .force-wrap; }
+  a { @extend .force-wrap; text-decoration: none; color: $link-color-hover;
+      &:hover { text-decoration: underline; }; &:visited { color: $link-color-hover; }}
   header {
     position: relative;
     padding-top: 2em;
