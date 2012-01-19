@@ -109,8 +109,9 @@ blockquote {
   $bq-margin: 1.2em;
   font-style: italic;
   position: relative;
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.5em;
+  color: #555;
   padding-left: 1em;
   border-left: 4px solid rgba($text-color-light, .5);
   cite {
