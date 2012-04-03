@@ -4,15 +4,15 @@
   <title><![CDATA[Stefan Nguyen]]></title>
   <link href="http://stnguyen.com/atom.xml" rel="self"/>
   <link href="http://stnguyen.com/"/>
-  <updated>2012-04-03T11:31:14+07:00</updated>
+  <updated>2012-04-03T11:37:27+07:00</updated>
   <id>http://stnguyen.com/</id>
   <author>
     <name><![CDATA[Stefan Nguyen]]></name>
-
+    
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-
+  
   <entry>
     <title type="html"><![CDATA[Mongoid Paranoia: Retrieve deleted (paranoid) associating document]]></title>
     <link href="http://stnguyen.com/blog/2012/01/19/mongoid-paranoia-retrieve-deleted-document/"/>
@@ -23,7 +23,7 @@
 <p><cite><a href="http://mongoid.org/docs/extras.html">Mongoid Document</a></cite></p></blockquote>
 ]]></content>
   </entry>
-
+  
   <entry>
     <title type="html"><![CDATA[Benefits of using MongoDB: Reduce Complexity &amp; Adapt to Changes]]></title>
     <link href="http://stnguyen.com/blog/2012/01/19/benefits-of-using-mongodb-reduce-complexity-and-adapt-to-changes/"/>
@@ -42,7 +42,7 @@
 
 ]]></content>
   </entry>
-
+  
   <entry>
     <title type="html"><![CDATA[Advice for Computer Science College Students from Joel Spolsky]]></title>
     <link href="http://stnguyen.com/blog/2012/01/19/advice-for-computer-science-college-students-from-joel-spolsky/"/>
@@ -64,7 +64,7 @@ Despite being a 7-years old article, I find it still very useful for graduating 
 <p>I recommend reading the <a href="http://www.joelonsoftware.com/articles/CollegeAdvice.html">original article in Joel blog</a>, you’ll find many other great posts in there, too.</p>
 ]]></content>
   </entry>
-
+  
   <entry>
     <title type="html"><![CDATA[Install Moses on Ubuntu 10.10]]></title>
     <link href="http://stnguyen.com/blog/2012/01/19/install-moses-on-ubuntu-10-dot-10/"/>
@@ -189,7 +189,7 @@ BINDIR=/home/stefan/moses/bin
 
 ]]></content>
   </entry>
-
+  
   <entry>
     <title type="html"><![CDATA[Cool technologies for Web development]]></title>
     <link href="http://stnguyen.com/blog/2012/01/19/cool-web-development-technologies/"/>
@@ -208,5 +208,5 @@ BINDIR=/home/stefan/moses/bin
 
 ]]></content>
   </entry>
-
+  
 </feed>
